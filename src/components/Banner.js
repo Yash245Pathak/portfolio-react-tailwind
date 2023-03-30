@@ -18,7 +18,7 @@ const Banner = () => {
                 sequence={[
                   'Front-End Developer',
                   2000,
-                  'Designer',
+                  'Freelancer',
                   2000,
                 ]}
                 speed={50}
@@ -28,14 +28,14 @@ const Banner = () => {
             </motion.div>
             <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>Pursuing Btech CSE from GLA University Mathura. A hardworking and passionate learner. Web Developer with good command in Front-End technologies and React.js</motion.p>
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}} className='flex max-w-max mx-auto mb-12 lg:mx-0'>
-              <button className='text-gradient btn-link'>My Portfolio</button>
+              <button className='text-gradient btn-link'><a href='https://drive.google.com/drive/folders/1sGl01LVI4Qg5DZHMbzCRj98vmipOZmp-?usp=share_link' target={'black'} >My Portfolio</a></button>
             </motion.div>
 
             <motion.div variants={fadeIn('up', 0.7)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.7}} className='flex mx-auto text-[25px] max-w-max gap-x-6 lg:mx-0 mb-4'>
-              <a href="https://github.com/Yash245Pathak" target='_blank' rel='noreferrer'>
+              <a href="https://github.com/Yash245Pathak" target={'_blank'} rel='noreferrer' >
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/yash-pathak-10a6031b6/" target='_blank' rel='noreferrer'>
+              <a href="https://www.linkedin.com/in/yash-pathak-10a6031b6/" target={'_blank'} rel='noreferrer' >
                 <FaLinkedin />
               </a>
             </motion.div>
