@@ -20,7 +20,7 @@ const About = () => {
           <p className='mb-6 mx-auto max-w-max'>
             Pursuing Btech CSE from GLA University Mathura. A hardworking and passionate learner. Web Developer with good command in Front-End technologies and React.js. I am a part time freelance web developer and my skill set includes a good hold on <u>React.js</u>, <u>HTML</u>, <u>CSS</u>, <u>Bootstrap</u>, <u>Tailwind CSS</u> and <u>JavaScript</u>. Also i have some knowledge on backend technologies like Node.js, Express.js and Mongo Db. And a little knowledge about UI/UX tools like Figma.
           </p>
-          <div className='flex gap-x-6 lg:gap-x-10 mb-6 mx-auto max-w-max lg:mx-0'>
+          <div className='flex gap-x-6 lg:gap-x-10 mt-3 mb-6 mx-auto max-w-max lg:mx-0'>
             <div>
               <div className='font-tertiary text-[40px] text-gradient mb-2'>
                 {inView ? <CountUp start={0} end={10} duration={4} /> : null}+
@@ -31,7 +31,7 @@ const About = () => {
               <div className='font-tertiary text-[40px] text-gradient mb-2'>
                 {inView ? <CountUp start={0} end={20} duration={4} /> : null}+
               </div>
-              <div className='font-primary tracking=[2px] text-sm'>No of <br /> Code Commits</div>
+              <div className='font-primary tracking=[2px] text-sm'>No of <br /> Repositories</div>
             </div>
           </div>
           <div className='flex gap-x-6 mx-auto max-w-max lg:mx-0'>

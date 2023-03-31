@@ -3,7 +3,7 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
-import Work from './components/Work';
+import Project from './components/Project';
 
 const App = () => {
   return (
@@ -12,8 +12,7 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
-      <Work />
-      <div className='h-[1000px]'></div>
+      <Project />
     </div>
   );
 };
