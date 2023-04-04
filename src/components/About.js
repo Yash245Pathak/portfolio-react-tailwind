@@ -10,7 +10,7 @@ const About = () => {
     threshold: 0.3
   });
   return (
-    <section className='section' id='about' ref={ref}>
+    <section className='section mb-36' id='about' ref={ref}>
       <div className="container mx-auto flex flex-col lg:flex-row justify-center items-center text-center lg:text-left">
         <motion.div variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.4 }} className='flex-1 bg-no-repeat bg-contain bg-top'> <img className='h-[300px] lg:h-[400px]' src={about} alt="" /> </motion.div>
         <motion.div

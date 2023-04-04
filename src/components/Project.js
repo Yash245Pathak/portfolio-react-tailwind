@@ -29,7 +29,7 @@ const Project = () => {
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mt-[70px]'>
               <div className='group-hover:bg-black/80 w-full h-full absolute z-40 transition-all duration-300'></div>
               <img className='group-hover:scale-150 transition-all duration-500' src={img1} alt="" />
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient font-bold'>Nft Website</span></div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient font-bold'>Beautiful Landing Page</span></div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'><span className='text-3xl text-white'>Project Title</span></div>
             </div>
           </div>
